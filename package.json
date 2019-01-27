@@ -1,0 +1,27 @@
+{
+  "name": "@termina/local-ip",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "lip": "./index.js",
+    "local-ip": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Termina/local-ip.git"
+  },
+  "author": "jiyinyiyong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Termina/local-ip/issues"
+  },
+  "homepage": "https://github.com/Termina/local-ip#readme",
+  "dependencies": {
+    "clipboardy": "^1.2.3",
+    "ip": "^1.1.5"
+  }
+}
