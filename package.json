@@ -1,6 +1,6 @@
 {
   "name": "@termina/local-ip",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "type": "module",
   "bin": {
@@ -21,9 +21,10 @@
   },
   "homepage": "https://github.com/Termina/local-ip#readme",
   "dependencies": {
-    "@types/clipboardy": "^2.0.1",
-    "@types/ip": "^1.1.0",
     "clipboardy": "^3.0.0",
     "ip": "^1.1.8"
+  },
+  "devDependencies": {
+    "@types/ip": "^1.1.0"
   }
 }

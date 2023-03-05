@@ -2,13 +2,6 @@
 # yarn lockfile v1
 
 
-"@types/clipboardy@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@types/clipboardy/-/clipboardy-2.0.1.tgz#91f694d47c0e716da7549d3baeca58a29a46d2b4"
-  integrity sha512-vLJm1iL6jFfEd+3/J4WTC65ppyGyaRTjpoB8bPhtiSrOCD0LFDr9GQYhoYNAsbt6JaY0amYacloIEEEOYUkkFg==
-  dependencies:
-    clipboardy "*"
-
 "@types/ip@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@types/ip/-/ip-1.1.0.tgz#aec4f5bfd49e4a4c53b590d88c36eb078827a7c0"
@@ -26,7 +19,7 @@ arch@^2.2.0:
   resolved "https://registry.yarnpkg.com/arch/-/arch-2.2.0.tgz#1bc47818f305764f23ab3306b0bfc086c5a29d11"
   integrity sha512-Of/R0wqp83cgHozfIYLbBMnej79U/SVGOOyuB3VVFv1NRM/PSFMK12x9KVtiYzJqmnU5WR2qp0Z5rHb7sWGnFQ==
 
-clipboardy@*, clipboardy@^3.0.0:
+clipboardy@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/clipboardy/-/clipboardy-3.0.0.tgz#f3876247404d334c9ed01b6f269c11d09a5e3092"
   integrity sha512-Su+uU5sr1jkUy1sGRpLKjKrvEOVXgSgiSInwa/qeID6aJ07yh+5NWc3h2QfjHjBnfX4LhtFcuAWKUsJ3r+fjbg==
