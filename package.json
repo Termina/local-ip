@@ -1,11 +1,11 @@
 {
   "name": "@termina/local-ip",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "",
-  "main": "index.js",
+  "type": "module",
   "bin": {
-    "lip": "./index.js",
-    "local-ip": "./index.js"
+    "lip": "./index.mjs",
+    "local-ip": "./index.mjs"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,7 +21,10 @@
   },
   "homepage": "https://github.com/Termina/local-ip#readme",
   "dependencies": {
-    "clipboardy": "^1.2.3",
-    "ip": "^1.1.5"
+    "clipboardy": "^3.0.0",
+    "ip": "^1.1.8"
+  },
+  "devDependencies": {
+    "@types/ip": "^1.1.0"
   }
 }
